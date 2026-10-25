@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSIPIS — Privacy Policy</title>
+    <style>
+        :root {
+            --bg-color: #0b0914;
+            --card-bg: #151226;
+            --text-color: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-cyan: #00f0ff;
+            --accent-purple: #9d00ff;
+            --border-color: #272343;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.2rem;
+            margin-top: 0;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 16px;
+        }
+        h2 {
+            color: var(--accent-cyan);
+            font-size: 1.4rem;
+            margin-top: 32px;
+        }
+        p, li {
+            color: var(--text-muted);
+            font-size: 1rem;
+        }
+        ul {
+            padding-left: 24px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-cyan));
+            color: #ffffff;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: #64748b;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Privacy-First Architecture</span>
+        <h1>TSIPIS Privacy Policy</h1>
+        <p><strong>Effective Date:</strong> October 25, 2026</p>
+        <p>Your privacy is fundamental to how <strong>TSIPIS</strong> is designed and operated. TSIPIS is built from the ground up to minimize data collection and respect your personal information.</p>
+
+        <h2>1. Information We Do Not Collect</h2>
+        <ul>
+            <li><strong>No Personal Accounts:</strong> You do not need an account, email address, username, or password to use TSIPIS.</li>
+            <li><strong>No Location Data:</strong> TSIPIS never accesses or requests your GPS location.</li>
+            <li><strong>No Advertising Trackers:</strong> We do not include third-party advertising SDKs, ad networks, tracking pixels, or cross-app analytics.</li>
+            <li><strong>No Sale of Data:</strong> We never sell, monetize, rent, or trade any user information.</li>
+        </ul>
+
+        <h2>2. Data Handled by the App</h2>
+        <ul>
+            <li><strong>Tracked Product Links:</strong> When you add a product URL, the link is stored locally on your device in your private SwiftData database and synchronized across your own devices via your private App Group / iCloud container.</li>
+            <li><strong>Anonymous Cloud Price Checks:</strong> To fetch price updates when the app is closed, anonymous cryptographic identifiers are used solely to query public e-commerce web pages for current pricing.</li>
+            <li><strong>Push Notifications (APNs):</strong> If you enable price alerts, your device generates an anonymous Apple Push Notification service (APNs) token. This token is used strictly to deliver price drop notifications to your device and is not linked to your identity.</li>
+        </ul>
+
+        <h2>3. Local Storage & Device Security</h2>
+        <p>All product information, saved target prices, and price history snapshots are stored securely on your device using Apple's local file protection APIs. If you delete a product or delete the application, all associated local data is permanently removed.</p>
+
+        <h2>4. Third-Party Services</h2>
+        <p>TSIPIS interacts with the following services strictly for app functionality:</p>
+        <ul>
+            <li><strong>Apple APNs:</strong> For transmitting system price alert notifications.</li>
+            <li><strong>Cloud Infrastructure (Supabase):</strong> For serverless scraping of public product prices using anonymous sessions.</li>
+        </ul>
+
+        <h2>5. Children's Privacy</h2>
+        <p>TSIPIS does not knowingly collect personal information from children under the age of 13. The app is rated 4+ and contains no age-restricted or objectionable material.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:teosavv@yahoo.gr" style="color: var(--accent-cyan);">teosavv@yahoo.gr</a></p>
+
+        <div class="footer">
+            &copy; 2026 TSIPIS. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
